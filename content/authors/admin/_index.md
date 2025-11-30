@@ -55,9 +55,9 @@ interests:
 education:
   - area: PhD Computer Science (Software Security Focus)
     institution: Purdue University
-    icon: ""
-    date_start: 2024-01
-    date_end: Present
+    icon: ''
+    date_start: 2024-01-01
+    date_end: ''
     summary: |
       Supervised by Prof. Xiangyu Zhang
     # button:
@@ -65,16 +65,16 @@ education:
     #   url: 'https://example.com/thesis.pdf'
   - area: MS Software Engineering
     institution: Renmin University of China
-    icon: ""
-    date_start: 2019-09
-    date_end: 2021-06
+    icon: ''
+    date_start: 2019-09-01
+    date_end: 2021-06-30
     summary: |
       Published two papers
   - area: BS Computer Science
     institution: Renmin University of China
-    icon: ""
-    date_start: 2015-09
-    date_end: 2019-06
+    icon: ''
+    date_start: 2015-09-01
+    date_end: 2019-06-30
     summary: |
       Build a foundation in Computer Science
 work:
@@ -82,7 +82,7 @@ work:
     company_name: Purdue University
     company_url: 'https://www.purdue.edu/'
     icon: ''
-    date_start: 2025-08
+    date_start: 2025-08-01
     date_end: ''
     summary: |
       Teaching Assistant for CS 240 Programming in C
@@ -90,16 +90,16 @@ work:
     company_name: Purdue University
     company_url: 'https://www.purdue.edu/'
     icon: ''
-    date_start: 2024-01
-    date_end: 2025-07
+    date_start: 2024-01-01
+    date_end: 2025-07-31
     summary: |
       Research Assistant in Prof. Xiangyu Zhang's group
   - position: Engineer
     company_name: Institute of Software, the Chinese Academy of Sciences
     company_url: 'http://www.is.cas.cn/'
     icon: ''
-    date_start: 2021-07
-    date_end: 2023-10
+    date_start: 2021-07-01
+    date_end: 2023-10-31
     summary: |
       Completed a project and published a paper
 
@@ -150,7 +150,7 @@ languages:
 awards:
   - title: Amazon Nova AI Challenge
     url: https://github.com/PurCL/ASTRA
-    date: '2025-08'
+    date: '2025-08-01'
     awarder: Amazon
     icon: hero/trophy
     summary: |
