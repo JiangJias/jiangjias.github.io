@@ -24,7 +24,7 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere t
 tags:
 - Large Language Models
 
-featured: false
+featured: true
 
 hugoblox:
   ids:
