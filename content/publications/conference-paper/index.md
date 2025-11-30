@@ -6,12 +6,20 @@ title: 'APP-Miner: Detecting API Misuses via Automatically Mining API Path Patte
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
+  - Jingzheng Wu
+  - Xiang Ling
+  - Tianyue Luo
+  - Sheng Qu
+  - Yanjun Wu
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - 'Corresponding Author'
 
 date: '2024-09-05T00:00:00Z'
 
@@ -24,8 +32,8 @@ publishDate: '2024-09-05T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In *2024 IEEE Symposium on Security and Privacy*
+publication_short: In *2024 SP*
 
 abstract: Extracting API patterns from the source code has been extensively employed to detect API misuses. However, recent studies manually provide pattern templates as prerequisites, requiring prior software knowledge and limiting their extraction scope. This paper presents APP-Miner (API path pattern miner), a novel static analysis framework for extracting API path patterns via a frequent subgraph mining technique without pattern templates. The critical insight is that API patterns usually consist of APIs’ data-related operations and are commonplace. Therefore, we define API paths as the control flow graphs composed of APIs’ data-related operations, and thereby the maximum frequent subgraphs of the API paths are the probable API path patterns. We implemented APP-Miner and extensively evaluated it on four widely used open-source software Linux kernel, OpenSSL, FFmpeg, and Apache httpd. We found 116, 35, 3, and 3 new API misuses from the above systems, respectively. Moreover, we gained 19 CVEs.
 
@@ -50,15 +58,15 @@ hugoblox:
 # Custom links
 links:
   - type: pdf
-    url: ""
+    url: https://github.com/JiangJias/APP-Miner
   - type: code
     url: https://github.com/JiangJias/APP-Miner
-  # - type: dataset
-  #   url: https://github.com/HugoBlox/hugo-blox-builder
-  # - type: slides
-  #   url: https://www.slideshare.net/
-  # - type: source
-  #   url: https://github.com/HugoBlox/hugo-blox-builder
+  - type: dataset
+    url: https://github.com/JiangJias/APP-Miner
+  - type: slides
+    url: https://github.com/JiangJias/APP-Miner
+  - type: source
+    url: https://github.com/JiangJias/APP-Miner
   - type: video
     url: https://www.youtube.com/watch?v=7YgqAM2LTbQ&list=PL0pRF4xvoD0kKDUYKpKpbOiVipYN2gmS0&index=180&t=14s
 
@@ -74,8 +82,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - example
+# projects:
+#   - example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
